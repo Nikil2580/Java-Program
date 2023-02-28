@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class armstrong_number {
+public class ArmstrongNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt(), originalNumber, remainder, result = 0, n = 0;
