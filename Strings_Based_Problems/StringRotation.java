@@ -15,5 +15,6 @@ public class StringRotation {
             else
                 System.out.println("Second string is not a rotation of first string");
         }
+        scanner.close();
     }
 }

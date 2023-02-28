@@ -21,5 +21,6 @@ public class DivideString {
                 System.out.println(i);
             }
         }
+        scanner.close();
     }
 }
