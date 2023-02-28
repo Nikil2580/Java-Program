@@ -28,8 +28,8 @@ public class AreAnagram {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        char str1[] = sc.next().toCharArray();
-        char str2[] = sc.next().toCharArray();
+        char[] str1 = sc.next().toCharArray();
+        char[] str2 = sc.next().toCharArray();
         sc.close();
         if (areAnagram(str1, str2))
             System.out.println("The two strings are " + "anagram of each other");

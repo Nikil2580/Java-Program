@@ -2,7 +2,7 @@ public class ChangeCase {
     public static void main(String[] args) {
 
         String str1 = "Great Power";
-        StringBuffer newStr = new StringBuffer(str1);
+        StringBuilder newStr = new StringBuilder(str1);
 
         for (int i = 0; i < str1.length(); i++) {
             if (Character.isLowerCase(str1.charAt(i))) {
