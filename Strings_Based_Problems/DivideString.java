@@ -3,9 +3,11 @@ import java.util.Scanner;
 public class DivideString {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the String:");
         String str = scanner.next();
         int len = str.length();
-        int n = 3;
+        System.out.println("Enter the value of N:");
+        int n = scanner.nextInt();
         int temp = 0, chars = len / n;
         String[] equalStr = new String[n];
         if (len % n != 0) {
