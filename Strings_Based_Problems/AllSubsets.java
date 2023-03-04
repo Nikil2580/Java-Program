@@ -2,12 +2,13 @@ public class AllSubsets {
     public static void main(String[] args) {
 
         String str = "FUN";
-        int len = str.length();
+        int n = str.length();
         int temp = 0;
-        String[] arr = new String[len * (len + 1) / 2];
-        for (int i = 0; i < len; i++) {
-            for (int j = i; j < len; j++) {
-                arr[temp++] = str.substring(i, j + 1);
+        String[] arr = new String[n * (n + 1) / 2];
+        for (int i = 0; i < n; i++) {
+            for (int j = i; j < n; j++) {
+                arr[temp] = str.substring(i, j + 1);
+                temp++;
             }
         }
         System.out.println("All subsets for given string are: ");
