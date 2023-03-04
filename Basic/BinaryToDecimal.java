@@ -3,10 +3,6 @@ import java.util.Scanner;
 public class BinaryToDecimal {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        // Another Method :
-        // String binaryString = sc.next();
-        // int decimal = Integer.parseInt(binaryString, 2);
-        // System.out.println(decimal);
         int decimal = sc.nextInt();
         int binary[] = new int[100];
         int index = 0;
