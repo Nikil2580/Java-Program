@@ -7,8 +7,7 @@ public class AllSubsets {
         String[] arr = new String[n * (n + 1) / 2];
         for (int i = 0; i < n; i++) {
             for (int j = i; j < n; j++) {
-                arr[temp] = str.substring(i, j + 1);
-                temp++;
+                arr[temp++] = str.substring(i, j + 1);
             }
         }
         System.out.println("All subsets for given string are: ");
