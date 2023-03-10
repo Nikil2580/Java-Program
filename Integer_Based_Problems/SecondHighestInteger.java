@@ -22,6 +22,7 @@ public class SecondHighestInteger {
         int secondHigh = getSecondHighest(array);
         System.out.println("Second Highest:" + secondHigh);
         sc.close();
+        
         // int highest = array[0];
         // int sec_highest = array[1];
         // for(int i=1; i<N; i++){
@@ -33,7 +34,6 @@ public class SecondHighestInteger {
         // sec_highest = array[i];
         // }
         // }
-        // System.out.println("Highest = " + highest + "\nSecond Highest = " +
-        // sec_highest);
+        // System.out.println("Highest = " + highest + "\nSecond Highest = " + sec_highest);
     }
 }
