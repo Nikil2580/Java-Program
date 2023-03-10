@@ -19,9 +19,9 @@ public class PerfectSquare {
 }
 
 // for (int i=1; i*i<=number; i++){
-// if(number/i==i){
-// System.out.println("Perfect Square");
-// return;
-// }
+//   if(number/i==i){
+//     System.out.println("Perfect Square");
+//     return;
+//   }
 // }
 // System.out.println("Not a Perfect Square");
