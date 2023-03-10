@@ -6,6 +6,7 @@ public class BinarySearch {
         Scanner sc = new Scanner(System.in);
         int[] arr = new int[] { 23, 435, 1, 0, 6, 86, 279 };
         int num = sc.nextInt();
+        sc.close();
         Arrays.sort(arr);
         int i = 0, j = arr.length - 1;
         while (i <= j) {
@@ -20,5 +21,6 @@ public class BinarySearch {
             }
         }
         System.out.println("Not Found");
+
     }
 }

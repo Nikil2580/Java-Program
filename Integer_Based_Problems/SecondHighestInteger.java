@@ -3,20 +3,24 @@ import java.util.Arrays;
 
 public class SecondHighestInteger {
 
-    public static void getSecondHighest(int[] a) {
+    public static int getSecondHighest(int[] a) {
         Arrays.sort(a);
-        int size = a.length;
-        System.out.println("Highest = " + a[size - 1]);
-        System.out.println("Second Highest = " + a[size - 2]);
+        // int largest = a[a.length - 1];
+        // int smallest = a[0];
+        return a[a.length - 2];
     }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int[] array = new int[5];
+        System.out.println("Enter array size");
         int N = sc.nextInt();
+        int[] array = new int[N];
+
         for (int i = 0; i < N; i++) {
             array[i] = sc.nextInt();
         }
+        int secondHigh = getSecondHighest(array);
+        System.out.println("Second Highest:" + secondHigh);
         sc.close();
         // int highest = array[0];
         // int sec_highest = array[1];
@@ -31,6 +35,5 @@ public class SecondHighestInteger {
         // }
         // System.out.println("Highest = " + highest + "\nSecond Highest = " +
         // sec_highest);
-        getSecondHighest(array);
     }
 }

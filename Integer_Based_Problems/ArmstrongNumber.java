@@ -3,16 +3,16 @@ import java.util.Scanner;
 public class ArmstrongNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int number = sc.nextInt(), originalNumber, remainder, result = 0, n = 0;
+        int number = sc.nextInt(), remainder, result = 0, n = 0;
         sc.close();
-        originalNumber = number;
-        for (; originalNumber != 0; originalNumber /= 10, ++n)
-            ;
+        String str = String.valueOf(number);
+        n = str.length();
 
-        originalNumber = number;
+        // for (originalNumber = number; originalNumber != 0; originalNumber /= 10,
+        // ++n);
 
-        for (; originalNumber != 0; originalNumber /= 10) {
-            remainder = originalNumber % 10;
+        for (int temp = number; temp != 0; temp /= 10) {
+            remainder = temp % 10;
             result += Math.pow(remainder, n);
         }
         if (result == number)

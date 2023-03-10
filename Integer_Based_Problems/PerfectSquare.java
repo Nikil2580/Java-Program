@@ -9,10 +9,9 @@ public class PerfectSquare {
         System.out.println(sqrt);
         System.out.println(Math.floor(sqrt));
 
-        if(sqrt - Math.floor(sqrt) == 0){
+        if (sqrt - Math.floor(sqrt) == 0) {
             System.out.println("Perfect Square");
-        }
-        else{
+        } else {
             System.out.println("Not a perfect square");
         }
 
@@ -20,10 +19,9 @@ public class PerfectSquare {
 }
 
 // for (int i=1; i*i<=number; i++){
-//     if(number/i==i){
-//         System.out.println("Perfect Square");
-//         return;
-//     }
+// if(number/i==i){
+// System.out.println("Perfect Square");
+// return;
+// }
 // }
 // System.out.println("Not a Perfect Square");
-

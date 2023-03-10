@@ -1,7 +1,7 @@
 public class Product {
     public static void main(String[] args) {
-        int i = 6;
-        float j = 8.2f;
+        int i = 4;
+        float j = 2.27656f;
         System.out.println(i * j);
     }
 }
