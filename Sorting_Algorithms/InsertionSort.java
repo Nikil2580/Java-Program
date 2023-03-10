@@ -7,10 +7,13 @@ public class InsertionSort {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int[] arr = new int[n];
+        
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
+        
         List<Integer> list = new ArrayList<Integer>();
+        
         for (int i = 0; i < n; i++) {
             list.add(arr[i]);
             for (int j = list.size() - 1; j > 0; j--) {
@@ -20,6 +23,7 @@ public class InsertionSort {
                 Collections.swap(list, j, j - 1);
             }
         }
+        
         for (int i = 0; i < n; i++) {
             System.out.print(list.get(i) + " ");
         }
