@@ -2,10 +2,8 @@ import java.util.Scanner;
 
 public class ScannerClass {
     public static void main(String[] args) {
-        Scanner sc = new Scanner("23");
+        Scanner sc = new Scanner("23"); // Hard Coded
         System.out.println(sc.nextInt());
-
-        sc = new Scanner("25"); // Hard Coded Value
-        System.out.println(sc.nextInt());
+        sc.close();
     }
 }
