@@ -7,6 +7,5 @@ public class CountCharacter {
                 count++;
         }
         System.out.println("Total number of characters in a string: " + count);
-
     }
 }
