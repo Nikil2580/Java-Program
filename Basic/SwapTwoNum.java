@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class SwapTwoNum {
     public static void main(String[] args) {
         int num1 = 10;
