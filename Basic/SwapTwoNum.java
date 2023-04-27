@@ -16,7 +16,6 @@ public class SwapTwoNum {
 
         // int[] num = new int[] {n1, n2};
         // return num;
-
         return new int[] { n1, n2 };
     }
 }

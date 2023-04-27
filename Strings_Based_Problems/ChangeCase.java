@@ -14,5 +14,6 @@ public class ChangeCase {
             }
         }
         System.out.println("String after case conversion : " + newStr);
+        sc.close();
     }
 }
